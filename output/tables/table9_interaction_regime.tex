@@ -1,0 +1,51 @@
+\begin{table}[!h]
+\centering\centering
+\caption{Interaction Effects of Meritocracy by Regime Type}
+\centering
+\begin{threeparttable}
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{WVS7} & \multicolumn{2}{c}{WVS Time Series} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5}
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{Individual} & \multicolumn{1}{c}{Country} & \multicolumn{1}{c}{Individual } & \multicolumn{1}{c}{Country } \\
+\cmidrule(l{3pt}r{3pt}){2-2} \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5}
+  &  (1) &   (2) &   (3) &   (4)\\
+\midrule
+Social Meritocracy (Individual) & 0.020*** &  & 0.038*** & \\
+ & (0.002) &  & (0.001) & \\
+Social Meritocracy (Country) &  & 0.109+ &  & 0.133***\\
+ &  & (0.058) &  & (0.025)\\
+Age & 0.003*** &  &  & \\
+ & (0.000) &  &  & \\
+Gender & 0.042*** &  &  & \\
+ & (0.006) &  &  \vphantom{1} & \\
+Income & 0.007 &  &  & \\
+ & (0.006) &  &  & \\
+Social Class & −0.001 &  &  & \\
+ & (0.004) &  &  & \\
+Education & 0.028*** &  &  & \\
+ & (0.002) &  &  & \\
+Flawed Democracy & 0.047* & 0.908 & 0.075*** & 0.514*\\
+ & (0.019) & (0.671) & (0.011) & (0.249)\\
+Full Democracy & 0.143*** & −0.057 & 0.257*** & 1.328**\\
+ & (0.022) & (1.572) & (0.012) & (0.413)\\
+Hybrid Regime & −0.089*** & 0.495 & 0.102*** & 0.154\\
+ & (0.022) & (0.550) & (0.012) & (0.369)\\
+Meritocracy $\times$ Flawed Democracy & −0.005* & −0.134 & −0.018*** & −0.080*\\
+ & (0.003) & (0.103) & (0.001) & (0.035)\\
+Meritocracy $\times$ Full Democracy & −0.006* & 0.038 & −0.027*** & −0.188**\\
+ & (0.003) & (0.241) & (0.002) & (0.061)\\
+Meritocracy $\times$ Hybrid Regime & 0.004 & −0.083 & −0.015*** & −0.022\\
+ & (0.003) & (0.081) & (0.002) & (0.054)\\
+Num.Obs. & 77156 & 60 & 296866 & 222\\
+R2 & 0.019 & 0.179 & 0.013 & 0.177\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001. The dependent variable varies by model specification: in models 1 and 3, it is individuals' support for democracy; in models 2 and 4, it is the country-level average. Coefficients are from linear regressions with robust standard errors in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

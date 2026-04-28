@@ -1,0 +1,42 @@
+\begin{table}[!h]
+\centering\centering
+\caption{Interaction Effects of Meritocracy by Democracy Score}
+\centering
+\begin{threeparttable}
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{WVS7} & \multicolumn{2}{c}{WVS Time Series} \\
+\cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5}
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{Individual} & \multicolumn{1}{c}{Country} & \multicolumn{1}{c}{Individual } & \multicolumn{1}{c}{Country } \\
+\cmidrule(l{3pt}r{3pt}){2-2} \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5}
+  &  (1) &   (2) &   (3) &   (4)\\
+\midrule
+Social Meritocracy (Individual) & 0.025*** &  & 0.046*** & \\
+ & (0.002) &  & (0.002) & \\
+Social Meritocracy (Country) &  & 0.179+ &  & 0.223***\\
+ &  & (0.106) &  & (0.050)\\
+Age & 0.003*** &  &  & \\
+ & (0.000) &  &  & \\
+Gender & 0.041*** &  &  & \\
+ & (0.006) &  &  \vphantom{1} & \\
+Income & 0.006 &  &  & \\
+ & (0.006) &  &  & \\
+Social Class & −0.000 &  &  & \\
+ & (0.004) &  &  & \\
+Education & 0.031*** &  &  & \\
+ & (0.002) &  &  & \\
+Democracy Score & 0.021*** & 0.191 & 0.038*** & 0.184**\\
+ & (0.003) & (0.136) & (0.002) & (0.057)\\
+Meritocracy $\times$ Democracy Score & −0.001*** & −0.027 & −0.004*** & −0.025**\\
+ & (0.000) & (0.020) & (0.000) & (0.008)\\
+Num.Obs. & 77156 & 60 & 296866 & 222\\
+R2 & 0.016 & 0.116 & 0.009 & 0.152\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\end{tabular}
+\begin{tablenotes}
+\item Note: + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001. The dependent variable varies by model specification: in models 1 and 3, it is individuals' support for democracy; in models 2 and 4, it is the country-level average. Coefficients are from linear regressions with robust standard errors in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

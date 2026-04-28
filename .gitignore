@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.Rapp.history
+.DS_Store
+
+# ignore the raw data file
+/data/raw/*
+
+# do not ignore .gitkeep file
+!/data/raw/.gitkeep

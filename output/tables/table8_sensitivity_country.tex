@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:sensitivity_country}Table 8: Sensitivity Analysis with Democracy Score as Benchmark Covariate}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lrrlrrrrr}
+\toprule
+Bound Label & R2dz.x & R2yz.dx & Treatment & Adjusted Estimate & Adjusted Se & Adjusted T & Adjusted Lower CI & Adjusted Upper CI\\
+\midrule
+1x demo\_score & 0.0263524 & 0.0233351 & meritocracy\_country & 0.0787739 & 0.0166372 & 4.734807 & 0.0459844 & 0.1115634\\
+2x demo\_score & 0.0527048 & 0.0467366 & meritocracy\_country & 0.0724309 & 0.0166637 & 4.346622 & 0.0395891 & 0.1052727\\
+3x demo\_score & 0.0790572 & 0.0702096 & meritocracy\_country & 0.0658967 & 0.0166911 & 3.948022 & 0.0330010 & 0.0987924\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: This table reports the results of a sensitivity analysis at the country level using democracy score as the benchmark covariate. Each row simulates a hypothetical confounder with strength equal to 1x, 2x, or 3x the association of democracy score with both the treatment (country-level meritocracy belief) and the outcome (average support for democracy). R2dz.x and R2yz.dx represent the proportion of variance in the treatment and outcome, respectively, that would be explained by the simulated confounder. Adjusted estimates and confidence intervals reflect bias-corrected treatment effects under each scenario.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}

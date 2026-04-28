@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Sensitivity Analysis with Education as Benchmark Covariate}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{threeparttable}
+\begin{tabular}[t]{lrrlrrrrr}
+\toprule
+Bound Label & R2dz.x & R2yz.dx & Treatment & Adjusted Estimate & Adjusted Se & Adjusted T & Adjusted Lower CI & Adjusted Upper CI\\
+\midrule
+1x edu & 0.0003295 & 0.0047514 & meritocracy & 0.0171809 & 0.0009845 & 17.45124 & 0.0152513 & 0.0191105\\
+2x edu & 0.0006590 & 0.0095028 & meritocracy & 0.0168378 & 0.0009823 & 17.14092 & 0.0149125 & 0.0187632\\
+3x edu & 0.0009885 & 0.0142542 & meritocracy & 0.0164946 & 0.0009801 & 16.82920 & 0.0145736 & 0.0184157\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Note: This table presents the results of a sensitivity analysis at the individual level using education as the benchmark covariate. Each row simulates a hypothetical confounder with strength equal to 1x, 2x, or 3x the association of education with both the treatment (meritocracy) and the outcome (support for democracy). R2dz.x and R2yz.dx represent the proportion of variance in the treatment and outcome, respectively, explained by the simulated confounder. Adjusted estimates and confidence intervals reflect bias-corrected treatment effects under each scenario.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
