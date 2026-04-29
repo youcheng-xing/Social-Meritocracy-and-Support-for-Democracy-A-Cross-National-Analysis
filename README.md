@@ -14,7 +14,7 @@ To replicate all tables and figures presented in the paper, please follow these 
 1.  **Prerequisites**: Ensure you have [R](https://cran.r-project.org/) 
                       and [RStudio](https://posit.co/download/rstudio-desktop/) installed on your machine.
 
-2.  **Initialize Project**: Double-click the **`merit_project.Rproj`** file 
+2.  **Initialize Project**: Double-click the **`Meritocracy_Democracy_Analysis.Rproj`** file 
                             in the root directory. This is a crucial step to ensure 
                             that all relative paths are correctly handled by the `here` package.
 
@@ -30,7 +30,7 @@ To replicate all tables and figures presented in the paper, please follow these 
 
 ```text
 .
-├── merit_project.Rproj    # R Project entry point (Always open this first)
+├── Meritocracy_Democracy_Analysis.Rproj    # R Project entry point (Always open this first)
 ├── run_all.R              # Master replication script (The "One-Click" solution)
 ├── code/                  # Core R scripts
 │   ├── 01_data_cleaning.R # Data merging, cleaning, and regime classification
